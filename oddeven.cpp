@@ -2,13 +2,13 @@
 using namespace std;
 int main(){
     int num;
-    cout<<"Enter n32umber to be checked : ";
+    cout<<"Enter number to be checked : ";
     cin>>num;
     if (num%2==0) {
-        cout<<"Number is even. ";
+        cout<<"Given Number is even. ";
 
     } else {
-        cout<<"Number is odd";
+        cout<<"Given Number is odd";
     }
     return 0;
 }
